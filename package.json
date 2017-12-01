@@ -1,7 +1,7 @@
 {
 	"name": "alfred-snippet-generator",
 	"description": "Generate .alfredsnippets files by pasting .tsv content (i.e. from Google Sheets or Excel) into a textarea",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"license": "0BSD",
 	"author": "Dave Houlbrooke <dave@shax.com>",
 	"engineStrict": true,
