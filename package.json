@@ -1,0 +1,29 @@
+{
+	"name": "alfred-snippet-generator",
+	"description": "Generate .alfredsnippets files by pasting .tsv content (i.e. from Google Sheets or Excel) into a textarea",
+	"version": "0.1.0",
+	"license": "0BSD",
+	"author": "Dave Houlbrooke <dave@shax.com>",
+	"engineStrict": true,
+	"engines": {
+		"node": ">=6.0.0"
+	},
+	"dependencies": {
+		"file-saver": "^1.3.3",
+		"jszip": "^3.1.5",
+		"tsv": "^0.2.0",
+		"uuid": "^3.1.0"
+	},
+	"devDependencies": {
+		"webpack": "latest",
+		"husky": "latest"
+	},
+	"scripts": {
+		"precommit": "npm run build",
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/dhoulb/alfred-snippet-generator.git"
+	}
+}
