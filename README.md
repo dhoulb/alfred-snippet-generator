@@ -2,7 +2,7 @@
 
 Alfred Snippet Generator lets you transform a spreadsheet (e.g. Google Sheets or Excel) into an **.alfredsnippets** file, which you can then be imported into [Alfred 3](https://www.alfredapp.com/). 
 
-Entirely cross-platformly browser-based (new browsers). Provides a textarea that triggers a conversion/download when you paste TSV content (just select all your cells and copy from your sheet): **[Try Alfred Snippet Generator!](index.html)**
+Entirely cross-platformly browser-based (new browsers). Provides a textarea that triggers a conversion/download when you paste TSV content (just select all your cells and copy from your sheet): **[Try Alfred Snippet Generator!](https://rawgit.com/dhoulb/alfred-snippet-generator/master/index.html)**
 
 _[Here is an example spreadsheet](https://docs.google.com/spreadsheets/d/1WsOrbmMU9pmJUmADv-GgPuTMXD2iTioeT-ATIKFg38k/) if you want something to try it out with._
 
@@ -18,4 +18,4 @@ Recommend not to hard-code prefixes or suffixes in keywords, as Alfred now inclu
 
 Include multiple keywords for the same snippet by separating the words with commas. Don't add spaces around the commas or the spaces will be included in the keywords!
 
-[This demo spreadsheet for HTML character entities](https://docs.google.com/spreadsheets/d/1WsOrbmMU9pmJUmADv-GgPuTMXD2iTioeT-ATIKFg38k/) shows an example of what you  need. To try it out, just copy all cells and [paste it into Alfred Snippet Generator](index.html).
+[This demo spreadsheet for HTML character entities](https://docs.google.com/spreadsheets/d/1WsOrbmMU9pmJUmADv-GgPuTMXD2iTioeT-ATIKFg38k/) shows an example of what you  need. To try it out, just copy all cells and [paste it into Alfred Snippet Generator](https://rawgit.com/dhoulb/alfred-snippet-generator/master/index.html).
