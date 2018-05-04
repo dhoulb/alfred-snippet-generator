@@ -27,8 +27,10 @@ function createSnippets()
 
 		// Checks.
 		if (line.length < 2) return alert('Row ' + (i+1) + ': Must have at least two columns (keyword and snippet)');
-		if (line[0].length < 1) return alert('Row ' + (i+1) + ': Column 1 (keyword) cannot be empty');
-		if (line[1].length < 1) return alert('Row ' + (i+1) + ': Column 2 (snippet) cannot be empty');
+		if (typeof line[0] === "number") line[0] = line[0].toString();
+		if (typeof line[0] !== "string" || line[0].length < 1) return alert('Row ' + (i+1) + ': Column 1 (keyword) cannot be empty');
+		if (typeof line[1] === "number") line[1] = line[1].toString();
+		if (typeof line[1] !== "string" || line[1].length < 1) return alert('Row ' + (i+1) + ': Column 2 (snippet) cannot be empty');
 
 		// Vars.
 		const keywords = line[0].split(/,/);

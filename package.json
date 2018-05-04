@@ -15,8 +15,8 @@
 		"uuid": "^3.1.0"
 	},
 	"devDependencies": {
-		"webpack": "latest",
-		"husky": "latest"
+		"husky": "latest",
+		"webpack-cli": "^2.1.2"
 	},
 	"scripts": {
 		"precommit": "npm run build",
